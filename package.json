@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "https://github.com/Nicolay-Belyaev",
+  "license": "ISC",
+  "repository": "https://github.com/Nicolay-Belyaev/rpg"
 }
