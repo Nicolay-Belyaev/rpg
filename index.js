@@ -1,10 +1,7 @@
+const {getRandomInt} = require("./utils.js")
 const {names, secondNames, job, city} = require("./dataSourse.js");
 
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-}
-
-export function generateRandomMan () {
+function generateRandomPerson () {
     return {
         name: names[getRandomInt(names.length - 1)],
         secondName: secondNames[getRandomInt(secondNames.length - 1)],
@@ -13,11 +10,12 @@ export function generateRandomMan () {
     }
 }
 
-export function generateRandomMansList (exemplarsAmount) {
+function generateRandomPersonList (exemplarsAmount) {
     let rndMansList = [];
     for (let i = 0; i < exemplarsAmount; i++) {
-        rndMansList.push(generateRandomMan());
+        rndMansList.push(generateRandomPerson());
     }
     return rndMansList;
 }
 
+module.exports = { generateRandomPerson, generateRandomPersonList };

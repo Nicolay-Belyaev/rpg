@@ -4,5 +4,3 @@ const city = ["Mumbai", "Tokyo", "New York City", "Moscow", "Buenos Aires", "Sha
 const job = ["Software Engineer", "Financial Analyst", "Marketer", "Lawyer", "Police officer", "Teacher", "Physician"];
 
 module.exports = { names, secondNames, city, job };
-
-console.log(module)

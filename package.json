@@ -1,7 +1,7 @@
 {
-  "name": "rpg",
+  "name": "rndPerson",
   "version": "1.0.0",
-  "description": "generates random objects (i.e. for testing)",
+  "description": "generates random person-like objects (i.e. for testing)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
